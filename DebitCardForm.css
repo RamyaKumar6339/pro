@@ -1,0 +1,54 @@
+/* DebitCardForm.css */
+.debit-card-form-container {
+  max-width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.debit-card-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.debit-card-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.debit-card-form-container label {
+  margin-top: 10px;
+}
+
+.debit-card-form-container input,
+.debit-card-form-container select,
+.debit-card-form-container textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.debit-card-form-container select {
+  height: 30px;
+}
+
+.debit-card-form-container textarea {
+  height: 80px;
+}
+
+.debit-card-form-container button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.debit-card-form-container button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,56 @@
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/premium-photo/piggy-bank-cell-phone_81048-34288.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100vh; /* Set the body height to full viewport height */
+  position: relative; /* Set the body position to relative */
+}
+
+.container1 {
+  width: 650px; /* Increase width */
+  height: 200px; /* Increase height */
+  margin: 100px;
+  padding: 50px 20px;
+  position: absolute; /* Set the container position to absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-125%, -75%);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

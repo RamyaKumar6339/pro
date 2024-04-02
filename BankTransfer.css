@@ -1,0 +1,70 @@
+/* BankTransfer.css */
+
+.bank-transfer-container {
+    max-width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bank-transfer-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bank-transfer-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-transfer-container label {
+    margin-top: 10px;
+}
+
+.bank-transfer-container input,
+.bank-transfer-container select {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.bank-transfer-container select {
+    height: 30px;
+}
+
+.bank-transfer-container button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bank-transfer-container button:hover {
+    background-color: #0056b3;
+}
+
+.done-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,52 @@
+.pay-bills-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pay-bills-container h1 {
+    text-align: center;
+  }
+  
+  .pay-bills-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pay-bills-container label {
+    margin-top: 10px;
+  }
+  
+  .pay-bills-container input[type="text"] {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .pay-bills-container button {
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pay-bills-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-success {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+  }
+  

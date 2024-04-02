@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #333; /* Set the background color */
+    color: white; /* Set the text color */
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Align items in a straight line with space between */
+    padding: 20px 20px; /* Add some padding */
+  }
+  
+  .navbar a {
+    color: white; /* Set the text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add some space between links */
+  }
+  

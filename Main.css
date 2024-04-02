@@ -1,0 +1,69 @@
+/* Main.css */
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.service-container,
+.transaction-container,
+.user-details {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin between service containers, transaction containers, and user details */
+}
+
+.service-container h2,
+.transaction-container h2,
+.user-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-container p,
+.transaction-container p,
+.user-details p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.service-container:hover,
+.transaction-container:hover,
+.user-details:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.transactions-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.transactions-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.transactions-container a {
+  display:grid;
+  width: 100px;
+  margin: 10px auto;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.transactions-container a:hover {
+  background-color: #0056b3;
+}

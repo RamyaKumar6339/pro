@@ -1,0 +1,58 @@
+.mobile-recharge-container {
+    max-width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-recharge-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-recharge-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mobile-recharge-container label {
+    margin-top: 10px;
+  }
+  
+  .mobile-recharge-container input[type="text"],
+  .mobile-recharge-container select {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .mobile-recharge-container button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .mobile-recharge-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .recharge-success {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .recharge-success h2 {
+    margin-top: 10px;
+  }
+  
